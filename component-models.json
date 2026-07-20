@@ -27,9 +27,10 @@
     "id": "image",
     "fields": [
       {
-        "component": "reference",
+        "component": "custom-asset-namespace:custom-asset",
         "name": "image",
         "label": "Image",
+				"configUrl": "https://main--xwalk-test-gems--githubusername.aem.page/tools/assets-selector/image.config.json",
         "multi": false
       },
       {
