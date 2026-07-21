@@ -30,7 +30,7 @@
         "component": "custom-asset-namespace:custom-asset",
         "name": "image",
         "label": "Image",
-				"configUrl": "https://main--xwalk-test-gems--githubusername.aem.page/tools/assets-selector/image.config.json",
+				"configUrl": "https://main--aem-standards--sandeep-tamiri.aem.page/tools/assets-selector/image.config.json",
         "multi": false
       },
       {
@@ -223,7 +223,7 @@
 	        "component": "custom-asset-namespace:custom-asset",
 	        "name": "image",
 	        "label": "Image",
-	        "configUrl": "https://main--xwalk-test-gems--githubusername.aem.page/tools/assets-selector/image.config.json",
+	        "configUrl": "https://main--aem-standards--sandeep-tamiri.aem.page/tools/assets-selector/image.config.json",
 	        "valueType": "string"
 	      },
 	      {
