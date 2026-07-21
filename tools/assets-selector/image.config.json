@@ -1,0 +1,54 @@
+{
+    "repoNames": [
+      "author-p83202-e713555.adobeaemcloud.com",
+      "delivery-p83202-e713555.adobeaemcloud.com",
+      "author-p12078-e101913.adobeaemcloud.com",
+      "delivery-p12078-e101913.adobeaemcloud.com"
+    ],
+   "aemTierType": [
+        "delivery",
+        "author"
+    ],
+    "expiryOptions": {
+        "allowSelectionAndDrag": false
+    },
+    "filterSchema": [
+        {
+          "fields": [
+            {
+              "defaultValue": ["image/*"],
+              "element": "checkbox",
+              "name": "type",
+              "options": [
+                {
+                  "label": "Image",
+                  "readOnly": true,
+                  "value": "image/*"
+                }
+              ]
+            }
+          ],
+          "groupKey": "FileTypeGroup",
+          "header": "File Type"
+        },
+        {
+          "fields": [
+            {
+              "columns": 3,
+              "defaultValue": ["arena"],
+              "element": "taggroup",
+              "name": "property=xcm:keywords.id=",
+              "options": [
+                {
+                  "label": "Demo",
+                  "value": "demo"
+                }
+              ]
+            }
+          ],
+          "groupKey": "AssetTagsGroup",
+          "header": "Assets Tags"
+        }
+      ],
+    "alwaysUseDMDelivery": true
+}
