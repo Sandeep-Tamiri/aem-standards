@@ -1,7 +1,5 @@
 {
     "repoNames": [
-      "author-p83202-e713555.adobeaemcloud.com",
-      "delivery-p83202-e713555.adobeaemcloud.com",
       "author-p12078-e101913.adobeaemcloud.com",
       "delivery-p12078-e101913.adobeaemcloud.com"
     ],
@@ -24,6 +22,17 @@
                   "label": "Image",
                   "readOnly": true,
                   "value": "image/*"
+                }
+              ]
+            },
+            {
+              "element": "checkbox",
+              "name": "type",
+              "options": [
+                {
+                  "label": "Video",
+                  "readOnly": false,
+                  "value": "video/*"
                 }
               ]
             }
