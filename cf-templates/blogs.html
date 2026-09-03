@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{blogTitle}}</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div>
+        {{#data.blogByPath.item}}
+        <article class="blog-post">
+          <h1 class="blog-title">{{blogTitle}}</h1>
+
+          <p class="blog-created">Blog Created - {{blogCreatedDate}}</p>
+
+          <p class="blog-author">By {{author}}</p>
+
+          <div class="blog-summary">
+            {{{blogSummary.html}}}
+          </div>
+
+          <div class="blog-content">
+            {{{blogContent.html}}}
+          </div>
+
+          {{#blogResources.length}}
+          <div class="blog-resources">
+            <h2>Resources</h2>
+            <ul>
+              {{#blogResources}}
+              <li>{{.}}</li>
+              {{/blogResources}}
+            </ul>
+          </div>
+          {{/blogResources.length}}
+
+          {{#relatedTags.length}}
+          <div class="blog-tags">
+            <h2>Tags</h2>
+            <ul>
+              {{#relatedTags}}
+              <li>{{.}}</li>
+              {{/relatedTags}}
+            </ul>
+          </div>
+          {{/relatedTags.length}}
+        </article>
+        {{/data.blogByPath.item}}
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
