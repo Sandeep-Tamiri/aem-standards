@@ -25,23 +25,21 @@
 
           {{#blogResources.length}}
           <div class="blog-resources">
-            <h2>Resources</h2>
-            <ul>
-              {{#blogResources}}
-              <li>{{.}}</li>
-              {{/blogResources}}
-            </ul>
+            {{#blogResources}}
+            <div>
+              <div>{{.}}</div>
+            </div>
+            {{/blogResources}}
           </div>
           {{/blogResources.length}}
 
           {{#relatedTags.length}}
           <div class="blog-tags">
-            <h2>Tags</h2>
-            <ul>
-              {{#relatedTags}}
-              <li>{{.}}</li>
-              {{/relatedTags}}
-            </ul>
+            {{#relatedTags}}
+            <div>
+              <div>{{.}}</div>
+            </div>
+            {{/relatedTags}}
           </div>
           {{/relatedTags.length}}
         </article>
