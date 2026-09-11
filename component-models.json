@@ -27,10 +27,9 @@
     "id": "image",
     "fields": [
       {
-        "component": "custom-asset-namespace:custom-asset",
-        "name": "image",
-        "label": "Image",
-				"configUrl": "https://main--xwalk-test-gems--githubusername.aem.page/tools/assets-selector/image.config.json",
+        "component": "reference",
+        "name": "image11",
+        "label": "Image11",
         "multi": false
       },
       {
@@ -177,6 +176,25 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "download",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "link",
+        "label": "PDF",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "linkText",
+        "label": "Link Text",
+        "value": ""
       }
     ]
   },
