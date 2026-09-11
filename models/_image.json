@@ -19,8 +19,8 @@
       "fields": [
         {
           "component": "reference",
-          "name": "image11",
-          "label": "Image11",
+          "name": "image",
+          "label": "Image",
           "multi": false
         },
         {
