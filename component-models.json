@@ -185,18 +185,14 @@
       {
         "component": "reference",
         "name": "link",
-        "label": "PDF",
+        "label": "PDF Link",
         "multi": false
       },
       {
         "component": "text",
         "name": "linkAlt",
-        "label": "Alt Text"
-      },
-       {
-        "component": "text",
-        "name": "linkText",
-        "label": "Link Text"
+        "label": "Link Title",
+        "description": "If not provided, it auto-populates from dc:description, falling back to dc:title."
       }
     ]
   },
