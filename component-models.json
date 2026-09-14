@@ -180,7 +180,7 @@
     ]
   },
   {
-    "id": "download",
+  "id": "download",
    "fields": [
       {
         "component": "reference",
@@ -192,6 +192,11 @@
         "component": "text",
         "name": "linkAlt",
         "label": "Alt Text"
+      },
+       {
+        "component": "text",
+        "name": "linkText",
+        "label": "Link Text"
       }
     ]
   },
