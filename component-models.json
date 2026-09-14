@@ -191,7 +191,7 @@
       },
       {
         "component": "text",
-        "name": "linkText",
+        "name": "linkAlt",
         "label": "Link Text"
       }
     ]
