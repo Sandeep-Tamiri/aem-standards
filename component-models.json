@@ -181,10 +181,9 @@
   },
   {
     "id": "download",
-    "fields": [
+   "fields": [
       {
         "component": "reference",
-        "valueType": "string",
         "name": "link",
         "label": "PDF",
         "multi": false
@@ -192,7 +191,7 @@
       {
         "component": "text",
         "name": "linkAlt",
-        "label": "Link Text"
+        "label": "Alt Text"
       }
     ]
   },
